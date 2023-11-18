@@ -24,7 +24,7 @@ public class Player extends Account {
 
     @Override
     public String toString() {
-        return "Player{" +
+        return "bowling.Player{" +
                 "whiteSide=" + whiteSide +
                 '}';
     }

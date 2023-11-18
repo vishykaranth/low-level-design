@@ -9,8 +9,8 @@ import java.util.*;
 public class Driver {
 //    public static void main(String[] args) throws IOException {
 ////        GameDao gameDao = new GameDao(6, 7, 4);
-////        Player player = new Player(new User("1", "priyam", "priyam@hike.in"), new RedBallType());
-////        Player player2 = new Player(new User("2", "priyam2", "priyam2@hike.in"), new YellowBallType());
+////        bowling.Player player = new bowling.Player(new User("1", "priyam", "priyam@hike.in"), new RedBallType());
+////        bowling.Player player2 = new bowling.Player(new User("2", "priyam2", "priyam2@hike.in"), new YellowBallType());
 ////        gameDao.addPlayer(player);
 ////        gameDao.addPlayer(player2);
 ////

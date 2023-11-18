@@ -15,7 +15,7 @@ public class Player {
 
     @Override
     public String toString() {
-        return "Player{" +
+        return "bowling.Player{" +
                 "playerId='" + playerId + '\'' +
                 ", name='" + name + '\'' +
                 '}';

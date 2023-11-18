@@ -23,7 +23,7 @@ public class Player {
 
     @Override
     public String toString() {
-        return "Player{" +
+        return "bowling.Player{" +
                 "user=" + user +
                 ", ballType=" + ballType +
                 '}';

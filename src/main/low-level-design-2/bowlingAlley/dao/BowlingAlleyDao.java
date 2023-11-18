@@ -35,7 +35,7 @@ public class BowlingAlleyDao {
                 Boolean gotStrike = false;
                 Boolean isEligibleForBonus = false;
                 for (int chance = 1; chance <= gameRules.getNumberOfChancesInEachRound(); chance++) {
-                    System.out.print("Player: " + player.getName() + "Round: " + round + " - Enter your number of hits: ");
+                    System.out.print("bowling.Player: " + player.getName() + "bowling.Round: " + round + " - Enter your number of hits: ");
                     Scanner scanner = new Scanner(System.in);
                     Integer score = scanner.nextInt();
                     totalScore += score;
@@ -59,7 +59,7 @@ public class BowlingAlleyDao {
                     totalScore = 0;
                     gotStrike = false;
                     for (int extraBalls = 1; extraBalls <= gameRules.getNumberOfBonusBallsOnStrikeOrSpareInLastRound(); extraBalls++) {
-                        System.out.print("Round: " + round + " - Enter your number of hits: ");
+                        System.out.print("bowling.Round: " + round + " - Enter your number of hits: ");
                         Scanner scanner = new Scanner(System.in);
                         Integer score = scanner.nextInt();
                         totalScore += score;

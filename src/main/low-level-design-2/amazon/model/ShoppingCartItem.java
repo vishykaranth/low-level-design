@@ -1,7 +1,7 @@
 package amazon.model;
 
 /**
- * @author priyamvora
+ *
  * @created 24/04/2021
  */
 public class ShoppingCartItem {

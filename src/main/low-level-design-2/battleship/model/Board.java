@@ -3,7 +3,7 @@ package battleship.model;
 import java.util.Arrays;
 
 /**
- * @author priyamvora
+ * 
  * @created 02/05/2021
  */
 public class Board {

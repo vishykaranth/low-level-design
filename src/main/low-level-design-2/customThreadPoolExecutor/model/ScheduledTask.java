@@ -3,7 +3,7 @@ package customThreadPoolExecutor.model;
 import customThreadPoolExecutor.constants.ScheduledTaskType;
 
 /**
- * @author priyamvora
+ * 
  * @created 29/05/2021
  */
 public class ScheduledTask implements Comparable<ScheduledTask> {

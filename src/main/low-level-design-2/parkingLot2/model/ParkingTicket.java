@@ -5,7 +5,7 @@ import parkingLot2.constants.TicketStatus;
 import java.util.UUID;
 
 /**
- * @author priyamvora
+ *
  * @created 12/05/2021
  */
 public class ParkingTicket {

@@ -3,7 +3,7 @@ package parkingLot2.model;
 import parkingLot2.constants.VehicleType;
 
 /**
- * @author priyamvora
+ *
  * @created 12/05/2021
  */
 public class Vehicle {

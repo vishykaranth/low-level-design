@@ -5,7 +5,7 @@ import multiThreadedMessageQueue.model.Topic;
 import multiThreadedMessageQueue.model.TopicSubscriber;
 
 /**
- * @author priyamvora
+ * 
  * @created 29/05/2021
  */
 public class SubscriberWorker implements Runnable {

@@ -4,7 +4,7 @@ import cabBooking2.constants.BookingStatus;
 import cabBooking2.constants.PaymentStatus;
 
 /**
- * @author priyamvora
+ *
  * @created 23/05/2021
  */
 public class Booking {

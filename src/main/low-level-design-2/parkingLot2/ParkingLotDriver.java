@@ -7,10 +7,7 @@ import parkingLot2.model.Vehicle;
 
 import java.util.UUID;
 
-/**
- * @author priyamvora
- * @created 12/05/2021
- */
+
 public class ParkingLotDriver {
     public static void main(String[] args) {
         ParkingLotDao parkingLotDao = new ParkingLotDao("P1");

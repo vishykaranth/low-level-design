@@ -3,7 +3,7 @@ package elevator;
 import java.util.TreeSet;
 
 /**
- * @author priyamvora
+ * 
  * @created 20/04/2021
  */
 public class SCAN {

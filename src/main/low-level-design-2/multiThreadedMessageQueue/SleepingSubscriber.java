@@ -4,7 +4,7 @@ import multiThreadedMessageQueue.model.Message;
 import multiThreadedMessageQueue.publicInterface.ISubscriber;
 
 /**
- * @author priyamvora
+ * 
  * @created 29/05/2021
  */
 public class SleepingSubscriber implements ISubscriber {

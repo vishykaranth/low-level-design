@@ -7,7 +7,7 @@ import parkingLot.models.parking.ParkingTicket;
 import parkingLot.models.parking.Vehicle;
 
 /**
- * @author priyamvora
+ *
  * @created 18/04/2021
  */
 public interface ParkingLotDao {

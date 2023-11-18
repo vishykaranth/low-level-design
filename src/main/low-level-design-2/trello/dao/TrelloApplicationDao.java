@@ -9,7 +9,7 @@ import trello.model.User;
 import java.util.List;
 
 /**
- * @author priyamvora
+ *
  * @created 20/04/2021
  */
 public interface TrelloApplicationDao {

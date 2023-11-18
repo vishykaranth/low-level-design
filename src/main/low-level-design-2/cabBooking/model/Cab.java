@@ -6,7 +6,7 @@ import cabBooking.constants.CabType;
 import java.util.UUID;
 
 /**
- * @author priyamvora
+ *
  * @created 01/05/2021
  */
 public class Cab {

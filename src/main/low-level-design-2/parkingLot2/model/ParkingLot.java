@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author priyamvora
+ *
  * @created 12/05/2021
  */
 public class ParkingLot {

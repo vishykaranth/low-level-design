@@ -3,7 +3,7 @@ package stackoverflow.model;
 import java.util.UUID;
 
 /**
- * @author priyamvora
+ * 
  * @created 24/04/2021
  */
 public class Tag {

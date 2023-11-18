@@ -6,7 +6,7 @@ import parkingLot.dao.ParkingLotDaoImpl;
 import java.util.UUID;
 
 /**
- * @author priyamvora
+ *
  * @created 18/04/2021
  */
 public class EntryGate extends Gate {

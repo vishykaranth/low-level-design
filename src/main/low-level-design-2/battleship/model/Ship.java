@@ -3,7 +3,7 @@ package battleship.model;
 import java.util.UUID;
 
 /**
- * @author priyamvora
+ *
  * @created 02/05/2021
  */
 public abstract class Ship {

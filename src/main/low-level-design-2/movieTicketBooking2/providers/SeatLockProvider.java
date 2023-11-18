@@ -7,7 +7,7 @@ import movieTicketBooking2.model.Show;
 import java.util.List;
 
 /**
- * @author priyamvora
+ * 
  * @created 26/05/2021
  */
 public interface SeatLockProvider {

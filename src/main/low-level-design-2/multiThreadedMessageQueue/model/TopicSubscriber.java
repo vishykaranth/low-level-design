@@ -5,7 +5,7 @@ import multiThreadedMessageQueue.publicInterface.ISubscriber;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author priyamvora
+ *
  * @created 29/05/2021
  */
 public class TopicSubscriber {

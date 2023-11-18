@@ -10,7 +10,7 @@ import trello.model.User;
 import java.util.*;
 
 /**
- * @author priyamvora
+ * 
  * @created 20/04/2021
  */
 public class TrelloApplicationDaoImpl implements TrelloApplicationDao {

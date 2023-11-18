@@ -3,7 +3,7 @@ package movieTicketBooking.model;
 import movieTicketBooking.PaymentMethod;
 
 /**
- * @author priyamvora
+ * 
  * @created 24/04/2021
  */
 public class PaymentInfo {

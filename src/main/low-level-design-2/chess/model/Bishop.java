@@ -3,7 +3,7 @@ package chess.model;
 import chess.constants.PieceType;
 
 /**
- * @author priyamvora
+ * 
  * @created 26/04/2021
  */
 public class Bishop extends Piece {

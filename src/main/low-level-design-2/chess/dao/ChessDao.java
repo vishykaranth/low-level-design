@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * @author priyamvora
+ *
  * @created 26/04/2021
  */
 public class ChessDao {

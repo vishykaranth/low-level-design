@@ -5,7 +5,7 @@ import amazon.constants.PaymentMethods;
 import java.util.UUID;
 
 /**
- * @author priyamvora
+ *
  * @created 23/04/2021
  */
 public class PaymentInfo {

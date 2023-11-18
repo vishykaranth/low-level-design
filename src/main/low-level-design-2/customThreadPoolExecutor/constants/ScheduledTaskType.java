@@ -1,7 +1,7 @@
 package customThreadPoolExecutor.constants;
 
 /**
- * @author priyamvora
+ *
  * @created 29/05/2021
  */
 public enum ScheduledTaskType {

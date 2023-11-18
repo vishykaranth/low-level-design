@@ -1,7 +1,7 @@
 package connect4.model;
 
 /**
- * @author priyamvora
+ *
  * @created 16/05/2021
  */
 public class Move {

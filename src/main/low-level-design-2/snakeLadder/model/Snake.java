@@ -1,7 +1,7 @@
 package snakeLadder.model;
 
 /**
- * @author priyamvora
+ *
  * @created 19/04/2021
  */
 public class Snake extends GameObjects implements Comparable<Snake> {

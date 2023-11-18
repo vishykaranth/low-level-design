@@ -4,7 +4,7 @@ import ticTacToe.model.Board;
 import ticTacToe.model.Piece;
 
 /**
- * @author priyamvora
+ *
  * @created 23/04/2021
  */
 public interface TicTacToeDao {

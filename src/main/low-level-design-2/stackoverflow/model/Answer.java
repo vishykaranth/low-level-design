@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author priyamvora
+ * 
  * @created 24/04/2021
  */
 public class Answer extends Entity {

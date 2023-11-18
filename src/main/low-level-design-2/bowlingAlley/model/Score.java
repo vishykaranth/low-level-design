@@ -3,7 +3,7 @@ package bowlingAlley.model;
 import bowlingAlley.constants.ScoreType;
 
 /**
- * @author priyamvora
+ * 
  * @created 24/05/2021
  */
 public class Score {

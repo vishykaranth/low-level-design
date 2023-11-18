@@ -3,7 +3,7 @@ package splitwise.pojo;
 import java.util.List;
 
 /**
- * @author priyamvora
+ * 
  * @created 19/04/2021
  */
 public class ExpenseDivisionVariables {

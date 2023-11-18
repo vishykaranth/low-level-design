@@ -1,7 +1,7 @@
 package bowlingAlley.model;
 
 /**
- * @author priyamvora
+ *
  * @created 23/05/2021
  */
 public class Player {

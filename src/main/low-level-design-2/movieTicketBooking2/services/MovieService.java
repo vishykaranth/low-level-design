@@ -5,7 +5,7 @@ import movieTicketBooking2.model.Movie;
 import java.util.List;
 
 /**
- * @author priyamvora
+ *
  * @created 25/05/2021
  */
 public class MovieService {

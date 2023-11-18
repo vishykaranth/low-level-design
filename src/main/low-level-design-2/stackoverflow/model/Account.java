@@ -1,7 +1,7 @@
 package stackoverflow.model;
 
 /**
- * @author priyamvora
+ * 
  * @created 24/04/2021
  */
 public class Account {

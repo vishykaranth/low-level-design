@@ -4,7 +4,7 @@ import kafka.model.Topic;
 import kafka.model.TopicSubscriber;
 
 /**
- * @author priyamvora
+ * 
  * @created 31/05/2021
  */
 public class SubscriberWorker implements Runnable {

@@ -7,7 +7,7 @@ import snakeLadder.services.SnakeLadderService;
 import java.util.Scanner;
 
 /**
- * @author priyamvora
+ *
  * @created 19/04/2021
  */
 public class Driver {

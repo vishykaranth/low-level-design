@@ -5,7 +5,7 @@ import parkingLot.constants.VehicleType;
 import java.util.*;
 
 /**
- * @author priyamvora
+ *
  * @created 18/04/2021
  */
 public class ParkingFloor {

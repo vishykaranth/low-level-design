@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.UUID;
 
 /**
- * @author priyamvora
+ *
  * @created 24/04/2021
  */
 public abstract class Entity {

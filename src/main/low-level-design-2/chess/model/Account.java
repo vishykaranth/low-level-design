@@ -5,7 +5,7 @@ import chess.constants.AccountStatus;
 import java.util.UUID;
 
 /**
- * @author priyamvora
+ *
  * @created 26/04/2021
  */
 public abstract class Account {

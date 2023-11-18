@@ -3,7 +3,7 @@ package snakeLadder.dao;
 import snakeLadder.model.Player;
 
 /**
- * @author priyamvora
+ *
  * @created 19/04/2021
  */
 public interface SnakeLadderDao {

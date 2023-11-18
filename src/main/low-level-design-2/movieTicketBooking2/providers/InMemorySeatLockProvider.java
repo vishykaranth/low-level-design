@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author priyamvora
+ *
  * @created 26/05/2021
  */
 public class InMemorySeatLockProvider implements SeatLockProvider {

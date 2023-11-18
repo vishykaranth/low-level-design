@@ -6,7 +6,7 @@ import ticTacToe.model.Player;
 import ticTacToe.service.TicTacToeService;
 
 /**
- * @author priyamvora
+ *
  * @created 23/04/2021
  */
 public class Driver {

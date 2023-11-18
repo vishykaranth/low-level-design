@@ -1,7 +1,7 @@
 package splitwise.model.user;
 
 /**
- * @author priyamvora
+ *
  * @created 19/04/2021
  */
 public class User {

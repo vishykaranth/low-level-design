@@ -6,7 +6,7 @@ import splitwise.pojo.ExpenseDivisionVariables;
 import java.util.Map;
 
 /**
- * @author priyamvora
+ *
  * @created 19/04/2021
  */
 public abstract class ExpenseType {

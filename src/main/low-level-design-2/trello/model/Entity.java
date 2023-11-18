@@ -3,7 +3,7 @@ package trello.model;
 import java.util.UUID;
 
 /**
- * @author priyamvora
+ * 
  * @created 20/04/2021
  */
 public abstract class Entity {

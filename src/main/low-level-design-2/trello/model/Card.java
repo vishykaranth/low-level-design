@@ -1,7 +1,7 @@
 package trello.model;
 
 /**
- * @author priyamvora
+ *
  * @created 20/04/2021
  */
 public class Card extends Entity {

@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author priyamvora
+ *
  * @created 20/04/2021
  */
 public class Board extends Entity {

@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.UUID;
 
 /**
- * @author priyamvora
+ *
  * @created 31/05/2021
  */
 public class Topic {

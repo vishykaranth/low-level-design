@@ -7,7 +7,7 @@ import kafka.handlers.SubscriberWorker;
 import java.util.PriorityQueue;
 
 /**
- * @author priyamvora
+ * 
  * @created 29/05/2021
  */
 public class ScheduledExecutorQueue {

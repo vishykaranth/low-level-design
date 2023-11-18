@@ -9,7 +9,7 @@ import snakeLadder.model.Snake;
 import java.util.Random;
 
 /**
- * @author priyamvora
+ *
  * @created 19/04/2021
  */
 public class SnakeLadderDaoImpl implements SnakeLadderDao {

@@ -3,7 +3,7 @@ package connect4;
 import java.util.*;
 
 /**
- * @author priyamvora
+ *
  * @created 15/05/2021
  */
 public class Driver {

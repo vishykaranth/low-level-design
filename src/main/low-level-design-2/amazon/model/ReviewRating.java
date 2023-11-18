@@ -3,7 +3,7 @@ package amazon.model;
 import java.util.UUID;
 
 /**
- * @author priyamvora
+ *
  * @created 23/04/2021
  */
 public class ReviewRating {

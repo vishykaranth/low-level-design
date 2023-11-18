@@ -1,0 +1,17 @@
+Transaction.class
+ElectricalParkingSpot.class
+ParkingFloor.class
+Vehicle.class
+NonElectricalParkingSpot.class
+ParkingTicket.class
+EntryPoint.class
+ExitPoint.class
+VehicleType.class
+Customer.class
+EntrancePanel.class
+ParkingRate.class
+PaymemtMode.class
+ParkingSpotType.class
+ParkingSpot.class
+DisplayBoard.class
+ParkingLot.class

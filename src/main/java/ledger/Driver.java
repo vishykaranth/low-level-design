@@ -12,7 +12,7 @@ public class Driver
 {
     public static void main(String[] args) {
         CommandManager commandManager = new CommandManager();
-        String filePath = "D:\\2023\\coding\\low-level-design\\ledger\\src\\files\\input02.txt";
+        String filePath = "E:\\jobhunt\\codebase\\github\\low-level-design\\src\\main\\java\\ledger\\files\\input01.txt";
         Path path = Paths.get(filePath);
         try (Stream<String> stream = Files.lines(path)) {
             stream.forEach(

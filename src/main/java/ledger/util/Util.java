@@ -1,6 +1,8 @@
 package ledger.util;
 
 
+import ledger.model.Loan;
+
 import java.util.HashMap;
 import java.util.Map;
 

@@ -1,6 +1,8 @@
 package ledger.payment;
 
 
+import ledger.model.Payment;
+
 import java.util.List;
 
 public class PaymentProcessor {

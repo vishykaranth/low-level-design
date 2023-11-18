@@ -1,6 +1,8 @@
 package ledger.balance;
 
 
+import ledger.model.Payment;
+
 import java.util.List;
 
 public class BalanceProcessor {

@@ -1,8 +1,9 @@
 package ledger.loan;
 
-import com.navi.ledger.model.Loan;
-import com.navi.ledger.model.Payment;
-import com.navi.ledger.util.Util;
+
+import ledger.model.Loan;
+import ledger.model.Payment;
+import ledger.util.Util;
 
 import java.util.ArrayList;
 import java.util.HashMap;

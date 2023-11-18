@@ -3,6 +3,7 @@ package elevator;
 
 import elevator.model.Elevator;
 import elevator.model.FloorSwitch;
+import elevator.service.ElevatorManager;
 
 public class Driver {
     public static void main(String[] args) {

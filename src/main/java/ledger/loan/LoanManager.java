@@ -1,6 +1,7 @@
 package ledger.loan;
 
-import com.navi.ledger.command.CommandExecution;
+
+import ledger.command.CommandExecution;
 
 public class LoanManager implements CommandExecution {
     String[] inputSplit;

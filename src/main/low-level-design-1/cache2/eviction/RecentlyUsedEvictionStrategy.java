@@ -8,7 +8,7 @@ import java.util.*;
 import java.util.concurrent.LinkedBlockingDeque;
 
 public class RecentlyUsedEvictionStrategy<K, V> implements IEvictionStrategy<K, V> {
-    private Deque<Bucket> queue;
+    private Deque<Bucket<K, V>> queue;
     private int capacity;
 
     public RecentlyUsedEvictionStrategy(Map<K, Bucket<K, V>> map, int capacity) {

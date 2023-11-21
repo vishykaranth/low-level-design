@@ -1,23 +1,23 @@
 package cache2.util;
 
-import cache2.model.Bucket;
 import cache2.eviction.IEvictionStrategy;
 import cache2.eviction.RecentlyUsedEvictionStrategy;
 import cache2.exception.KeyNotFoundException;
+import cache2.model.Bucket;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class CustomCache<K,V> implements ICache<K,V> {
+public class CustomCache<K, V> implements ICache<K, V> {
 
-    private IEvictionStrategy<K,V> evictionStrategy;
+    private IEvictionStrategy<K, V> evictionStrategy;
     private int capacity;
-    private Map<K, Bucket<K,V>> map;
+    private Map<K, Bucket<K, V>> map;
 
     public CustomCache(int capacity) {
         this.capacity = capacity;
-        this.map= new ConcurrentHashMap<>();
-        this.evictionStrategy= new RecentlyUsedEvictionStrategy<K,V>(map, capacity);
+        this.map = new ConcurrentHashMap<>();
+        this.evictionStrategy = new RecentlyUsedEvictionStrategy<K, V>(map, capacity);
     }
 
     @Override
@@ -30,7 +30,7 @@ public class CustomCache<K,V> implements ICache<K,V> {
         evictionStrategy.put(map, key, value);
     }
 
-    public void setEvictionStrategy(IEvictionStrategy<K,V> evictionStrategy) {
+    public void setEvictionStrategy(IEvictionStrategy<K, V> evictionStrategy) {
         this.evictionStrategy = evictionStrategy;
     }
 

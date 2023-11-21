@@ -8,8 +8,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
 
-public class Driver
-{
+public class Driver {
     public static void main(String[] args) {
         CommandManager commandManager = new CommandManager();
         String filePath = "E:\\jobhunt\\codebase\\github\\low-level-design\\src\\main\\java\\ledger\\files\\input01.txt";

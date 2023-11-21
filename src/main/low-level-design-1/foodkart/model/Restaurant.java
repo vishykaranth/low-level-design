@@ -1,6 +1,8 @@
 package foodkart.model;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.UUID;
 
 public class Restaurant {
     String restaurantId;
@@ -10,7 +12,7 @@ public class Restaurant {
     Rating ratings;
 
     public Restaurant(String restaurantName, String[] listOfServicePincode,
-        String foodName, double price, int quantity) {
+                      String foodName, double price, int quantity) {
         this.restaurantId = UUID.randomUUID().toString();
         this.restaurantName = restaurantName;
         this.listOfServicePincode = new HashSet<>(Arrays.asList(listOfServicePincode));

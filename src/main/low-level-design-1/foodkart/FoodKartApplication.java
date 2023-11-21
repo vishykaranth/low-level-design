@@ -31,11 +31,11 @@ public class FoodKartApplication {
             System.out.println(restaurant.getRestaurantName() + " " + restaurant.getFoodItem().getName());
         }
 
-        if(restaurantService.placeOrder("Food Court-1", 2)){
+        if (restaurantService.placeOrder("Food Court-1", 2)) {
             System.out.println("Order Placed Successfully");
         }
 
-        if(!restaurantService.placeOrder("Food Court-2", 7)){
+        if (!restaurantService.placeOrder("Food Court-2", 7)) {
             System.out.println("Cannot place order");
         }
 
@@ -49,7 +49,7 @@ public class FoodKartApplication {
         }
 
         userService.loginUser("phoneNumber-1");
-        restaurantService.updateQuantity("Food Court-2",5);
+        restaurantService.updateQuantity("Food Court-2", 5);
 
     }
 }

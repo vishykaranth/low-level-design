@@ -32,7 +32,7 @@ public class LoanProcessor {
         double interestAmount = Util.calculateInterestAmount(principalAmount, years, interestRate);
         double totalAmount = principalAmount + interestAmount;
         int emiAmount = Util.calculateEMIAmount(totalAmount, totalMonths);
-        Loan loan = new Loan(principalAmount, interestAmount, totalAmount,totalMonths, emiAmount, paymentList);
+        Loan loan = new Loan(principalAmount, interestAmount, totalAmount, totalMonths, emiAmount, paymentList);
         updateLoanMap(loan);
     }
 
@@ -44,14 +44,14 @@ public class LoanProcessor {
     }
 
     private void updateLoanMap(Loan loan) {
-        if(Util.getUserLoanMapping().containsKey(customerName)) {
+        if (Util.getUserLoanMapping().containsKey(customerName)) {
             Map<String, Loan> existingMap = Util.getUserLoanMapping().get(customerName);
             existingMap.put(bankName, loan);
             Util.getUserLoanMapping().put(customerName, existingMap);
         } else {
-            Map<String,Loan> map = new HashMap<>();
-            map.put(bankName,loan);
-            Util.getUserLoanMapping().put(customerName,map);
+            Map<String, Loan> map = new HashMap<>();
+            map.put(bankName, loan);
+            Util.getUserLoanMapping().put(customerName, map);
         }
     }
 

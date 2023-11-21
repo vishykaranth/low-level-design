@@ -8,7 +8,7 @@ public interface FoodKartRestaurantService {
 
     // register Restaurant
     void registerRestaurant(String restaurantName, String listOfPincodes, String foodName, double price,
-        int quantity);
+                            int quantity);
 
     boolean updateQuantity(String restaurantName, int quantityToAdd);
 

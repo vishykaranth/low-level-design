@@ -26,7 +26,6 @@ public class Driver {
         ElevatorManager elevatorManager = new ElevatorManager(elevators);
 
 
-
         //TODO: add functionality for stoping
 
 

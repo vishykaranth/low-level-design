@@ -15,8 +15,8 @@ public class Elevator {
     private Boolean isAlarmOn;
 
     public Elevator(int id) {
-        this.id=id;
-        this.state= new State();
+        this.id = id;
+        this.state = new State();
         this.isFanOn = false;
         this.isLightsOn = false;
         this.isAlarmOn = false;

@@ -21,7 +21,7 @@ public class FoodKartRestaurantServiceImpl implements FoodKartRestaurantService 
 
     @Override
     public void registerRestaurant(String restaurantName, String listOfPincodes, String foodName, double price,
-        int quantity) {
+                                   int quantity) {
         Restaurant restaurant = new Restaurant(restaurantName, listOfPincodes.split("[/]"), foodName, price, quantity);
         this.restaurantDao.addRestaurant(restaurant);
     }

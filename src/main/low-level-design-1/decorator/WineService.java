@@ -6,7 +6,7 @@ public class WineService extends ExtraChargeDecorator {
     }
 
     public int getCost() {
-        System.out.println("Wine-service-"+50);
+        System.out.println("Wine-service-" + 50);
         return room.getCost() + 50;
     }
 }

@@ -1,6 +1,6 @@
 package enums;
 
-public enum  MatchResult {
+public enum MatchResult {
     WON,
     DRAWN
 }

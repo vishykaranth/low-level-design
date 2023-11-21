@@ -3,7 +3,7 @@ package cache2.model;
 import java.time.Instant;
 import java.util.Date;
 
-public class Bucket<K,V> {
+public class Bucket<K, V> {
     private K key;
     private V value;
     private Date updatedOn;
@@ -13,9 +13,9 @@ public class Bucket<K,V> {
     public Bucket(K key, V value) {
         this.key = key;
         this.value = value;
-        this.updatedOn= Date.from(Instant.now());
-        this.hit=0;
-        this.usedOn= Date.from(Instant.now());
+        this.updatedOn = Date.from(Instant.now());
+        this.hit = 0;
+        this.usedOn = Date.from(Instant.now());
     }
 
     public void setUpdatedOn(Date updatedOn) {

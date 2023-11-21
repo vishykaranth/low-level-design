@@ -1,7 +1,6 @@
 package cricket.UI;
 
 
-
 import cricket.models.CricketPlayer;
 import cricket.models.PlayerData;
 import cricket.models.Team;
@@ -34,9 +33,9 @@ public class Dashboard {
         for (CricketPlayer player : currentTeam.getPlayers()) {
             PlayerData data = player.getPlayerData();
             System.out.println(
-                player.getPlayerName() + "          | " + data.getScore() + " | " + data.getNumberOfFour() + " | "
-                    + data
-                    .getNumberOfSix() + " | " + data.getNumberOfBallsFaced());
+                    player.getPlayerName() + "          | " + data.getScore() + " | " + data.getNumberOfFour() + " | "
+                            + data
+                            .getNumberOfSix() + " | " + data.getNumberOfBallsFaced());
         }
     }
 

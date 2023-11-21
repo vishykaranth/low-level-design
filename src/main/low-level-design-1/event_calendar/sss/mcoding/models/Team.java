@@ -3,7 +3,7 @@ package event_calendar.sss.mcoding.models;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Team extends Participant{
+public class Team extends Participant {
 
     private List<User> teamMembers;
 

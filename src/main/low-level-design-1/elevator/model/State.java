@@ -16,12 +16,12 @@ public class State {
     private Set<Integer> isPressed;
 
     public State() {
-        this.direction= Direction.IDLE;
+        this.direction = Direction.IDLE;
         this.currentFloor = 0;
         this.isPressed = new HashSet<>();
     }
 
-    public void addFloor(Integer floor){
+    public void addFloor(Integer floor) {
         isPressed.add(floor);
     }
 }

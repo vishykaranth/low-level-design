@@ -51,7 +51,7 @@ public class Match {
 
     private void startBatting() {
         System.out.println("Batting team is : " + this.currentBattingTeam.getTeamName() + " playing for overs : "
-            + this.numOfOversInMatch);
+                + this.numOfOversInMatch);
         Scanner scanner = new Scanner(System.in);
         this.currentBattingTeam.initializePlayers();
         for (int i = 1; i <= this.numOfOversInMatch; i++) {
@@ -59,7 +59,7 @@ public class Match {
             for (int j = 0; j < 6; j++) {
                 String score = scanner.nextLine();
                 if (!updateScore(score) || (previousBattingTeam != null
-                    && this.currentBattingTeam.getTotalTeamScore() >= this.previousBattingTeam.getTotalTeamScore())) {
+                        && this.currentBattingTeam.getTotalTeamScore() >= this.previousBattingTeam.getTotalTeamScore())) {
                     dashboard.displayScoreCard(this.currentBattingTeam);
                     return;
                 }

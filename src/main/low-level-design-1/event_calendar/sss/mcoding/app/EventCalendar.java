@@ -39,7 +39,7 @@ public class EventCalendar {
         User user = userManager.getUser(userId);
 
         for (Event event : user.getEvents()) {
-            System.out.println(userId + " - "+ event.getName() + " - " + event.getTimeSlot().getStartTime() + " - " + event.getTimeSlot().getEndTime());
+            System.out.println(userId + " - " + event.getName() + " - " + event.getTimeSlot().getStartTime() + " - " + event.getTimeSlot().getEndTime());
         }
 
     }

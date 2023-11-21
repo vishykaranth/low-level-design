@@ -45,15 +45,15 @@ public class ParkingLot {
         return false;
     }
 
-    public ParkingTicket getParkingTicket(Vehicle vehicle){
+    public ParkingTicket getParkingTicket(Vehicle vehicle) {
         EntryPoint currentEntryPoint = entryPoints.get(0);
         ParkingTicket ticket = currentEntryPoint.generateTicket(vehicle);
-        return  ticket;
+        return ticket;
     }
 
-    public Transaction payAtExit(ParkingTicket ticket ,PaymemtMode mode){
+    public Transaction payAtExit(ParkingTicket ticket, PaymemtMode mode) {
         ExitPoint exitPoint = exitPoints.get(0);
-        BigDecimal amount  = exitPoint.scanTicket(ticket);
-        return  new Transaction(mode,amount);
+        BigDecimal amount = exitPoint.scanTicket(ticket);
+        return new Transaction(mode, amount);
     }
 }

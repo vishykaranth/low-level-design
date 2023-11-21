@@ -33,14 +33,13 @@ public class TeamManager {
     }
 
     private void validateUsers(List<String> userNames) {
-        for(String userName : userNames) {
+        for (String userName : userNames) {
             boolean userAlreadyPartOfTeam = userManager.checkIfUserPartOfAnyTeam(userName);
             if (userAlreadyPartOfTeam) {
                 throw new RuntimeException("User " + userName + " already part of another team");
             }
         }
     }
-
 
 
 }

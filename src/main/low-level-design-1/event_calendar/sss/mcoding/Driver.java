@@ -10,7 +10,6 @@ import java.util.Arrays;
 public class Driver {
 
 
-
     public static void main(String args[]) throws IOException, ParseException {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         EventCalendar eventCalendar = new EventCalendar();

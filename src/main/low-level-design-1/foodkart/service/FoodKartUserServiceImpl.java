@@ -15,7 +15,7 @@ public class FoodKartUserServiceImpl implements FoodKartUserService {
     @Override
     public void registerUser(String name, String gender, String phoneNumber, String pinCode) {
         User user = new User(name, gender.toLowerCase().equals("male") ? Gender.MALE : Gender.FEMALE, phoneNumber,
-            pinCode);
+                pinCode);
         userDao.addUser(user);
     }
 

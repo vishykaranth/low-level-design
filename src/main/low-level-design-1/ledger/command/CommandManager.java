@@ -8,7 +8,7 @@ public class CommandManager {
     public void executeCommand(String input) {
         String[] inputSplit = input.split(" ");
         String command = inputSplit[0];
-        commandExecution = commandFactory.getInstance(command,inputSplit);
+        commandExecution = commandFactory.getInstance(command, inputSplit);
         commandExecution.execute();
-        }
+    }
 }

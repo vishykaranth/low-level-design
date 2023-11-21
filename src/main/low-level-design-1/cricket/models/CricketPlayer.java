@@ -17,7 +17,7 @@ public class CricketPlayer extends Player {
         return playerData;
     }
 
-    public void updatePlayerScore(int score){
+    public void updatePlayerScore(int score) {
         playerData.updatePlayerScore(score);
     }
 }

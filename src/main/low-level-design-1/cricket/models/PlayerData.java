@@ -55,11 +55,11 @@ public class PlayerData {
         updateScore(score);
         updateNumberOfBallsFaced();
         switch (score) {
-        case 4:
-            updateNumberOfFour();
-            break;
-        case 6:
-            updateNumberOfSix();
+            case 4:
+                updateNumberOfFour();
+                break;
+            case 6:
+                updateNumberOfSix();
         }
     }
 

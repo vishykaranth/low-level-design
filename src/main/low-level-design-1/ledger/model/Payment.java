@@ -2,7 +2,7 @@ package ledger.model;
 
 public class Payment {
 
-    private  double amountPaid;
+    private double amountPaid;
     private int emiCountLeft;
 
     public Payment(double amountPaid, int emiCountLeft) {

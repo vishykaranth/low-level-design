@@ -2,10 +2,10 @@ package event_calendar.sss.mcoding.models;
 
 import java.util.List;
 
-public class Event implements Comparable<Event>{
+public class Event implements Comparable<Event> {
 
     private String name;
-//    private List<Participant> participants;
+    //    private List<Participant> participants;
     private List<User> userParticipants;
     private TimeSlot timeSlot;
 

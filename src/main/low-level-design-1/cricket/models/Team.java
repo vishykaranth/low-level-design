@@ -92,7 +92,7 @@ public class Team {
     }
 
     public boolean updateWicket() {
-        this.totalWickets +=1;
+        this.totalWickets += 1;
         if (isNextBatsmanAvailable()) {
             updateScore(0);
             wicketFallen();

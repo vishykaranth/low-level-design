@@ -62,7 +62,7 @@ public class EventManager {
         // 4-6
         // 6-6
         // 3-5  - 5.compare(4) > 0
-        Event event = events.lower(new Event("dummy", null,  new TimeSlot(endTime, endTime)));
+        Event event = events.lower(new Event("dummy", null, new TimeSlot(endTime, endTime)));
         if (event != null && event.getTimeSlot().getEndTime().compareTo(startTime) > 0) {
             return false;
         } else {

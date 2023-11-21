@@ -3,7 +3,7 @@ package event_calendar.sss.mcoding.models;
 import java.util.Optional;
 import java.util.TreeSet;
 
-public class User extends Participant{
+public class User extends Participant {
 
     private TimeSlot workingHours;
     private Optional<Team> team;
@@ -25,7 +25,7 @@ public class User extends Participant{
     }
 
     public void setTeam(Team team) {
-        this.team = Optional.of (team);
+        this.team = Optional.of(team);
     }
 
     public TreeSet<Event> getEvents() {

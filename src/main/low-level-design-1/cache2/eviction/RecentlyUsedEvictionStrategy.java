@@ -55,6 +55,7 @@ public class RecentlyUsedEvictionStrategy<K, V> implements IEvictionStrategy<K, 
          * s3: then add
          */
 
+        //Check Capacity & Evict if above capacity
         if (map.size() >= capacity) {//evict
             evict(map);
         }

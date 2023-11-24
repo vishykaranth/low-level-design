@@ -1,11 +1,14 @@
 package amazon.model;
 
+import lombok.Getter;
+
 import java.util.UUID;
 
 /**
  * 
  * @created 23/04/2021
  */
+@Getter
 public abstract class User {
     private final String userId;
 

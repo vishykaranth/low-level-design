@@ -1,0 +1,61 @@
+[
+  {
+    "id" : "191701929336",
+    "transactionDate" : "2019-06-20T06:17:01.000-07:00",
+    "person":{
+      "firstName":"AMAZON-US",
+      "lastName" : "User",
+      "contact" : {
+        "address" : {
+          "street" : "2451 NW 41st Avenue",
+          "cty": "LAUDERHILL",
+          "state": "FL",
+          "zipCode": "33313-3766",
+          "country":"US"
+        },
+        "email": "devenvironment@st.com",
+        "phone": {
+          "PRIMARY":{
+            "number": "3035551232",
+            "type": "Mobile"
+          },
+          "SECONDARY":{
+            "type": "Home"
+          }
+        },
+        "attributes":{
+          "buyerID":"devenvironment@st.com",
+          "streetaddress2": "APT 211"
+        }
+      }
+    },
+    "merchant":{
+      "name": "AMAZON_US"
+    },
+    "items":[
+      {
+        "merchantSku": "RD-WT0049N2B",
+        "price": "99.99",
+        "tax": "1.00",
+        "currency": "USD",
+        "quantity": "",
+        "description": "Space Wheel",
+        "attributes": {
+          "lineItemID": "1_191701929312",
+          "isWarranty": "TRUE",
+          "isCancellation": "FALSE",
+          "isItem": "FALSE",
+          "instanceID": "76b777dc-d296-4e19-ace1-36cbd42f7f99_191701929312",
+          "manufacturer": "SHOPHQ",
+          "itemModel": "U175574-00003-00000",
+          "partNumber": "U175574-00003-00000"
+        }
+      }
+    ],
+    "attributes":{
+      "fileName": "ef7dd4c94393ad04f4d445085766f5390",
+      "purchaseOrderNumber": "191701929312",
+      "referenceNumber":"191701929312"
+    }
+  }
+]

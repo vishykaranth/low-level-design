@@ -1,6 +1,6 @@
 package small_apps.framework;
 
-public class Human {
+public class Human implements Animal{
     private Move move;
 
     public Human(Move m){
@@ -8,6 +8,7 @@ public class Human {
     }
 
     public void doMove(){
+        System.out.print( "Human :: ");
         this.move.action();
     }
 }

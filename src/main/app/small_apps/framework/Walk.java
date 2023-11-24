@@ -3,7 +3,8 @@ package small_apps.framework;
 public class Walk implements Move {
     @Override
     public void action() {
-        System.out.println("5 miles per hour - it is slow!");
+//        System.out.println("5 miles per hour - it is slow!");
+        System.out.println("Walk");
     }
 }
 

@@ -1,5 +1,8 @@
 package logistics_system;
 
+import logistics_system.payments.PaymentDetails;
+import logistics_system.vehicle.Vehicle;
+
 import java.util.Date;
 import java.util.List;
 

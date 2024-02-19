@@ -1,5 +1,8 @@
 package logistics_system;
 
+import logistics_system.payments.PaymentDetails;
+import logistics_system.payments.PaymentMode;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -7,11 +10,7 @@ import java.util.List;
 public class Apptest {
 
     public static void main(String[] args) {
-
-        User user = new User();
-        user.setUserId(1);
-        user.setName("Shashi");
-        user.setEmailId("shashi@gmail.com");
+        User user = getUser(1, "Shashi", "shashi@gmail.com");
 
         Item item1 = new Item();
         item1.setName("item1");
@@ -46,5 +45,13 @@ public class Apptest {
         logisticsSystem.registerNewUser(user);
         logisticsSystem.takeAnOrder(order);
         logisticsSystem.processOrder(order);
+    }
+
+    private static User getUser(int id, String name, String emailId) {
+        User user = new User();
+        user.setUserId(id);
+        user.setName(name);
+        user.setEmailId(emailId);
+        return user;
     }
 }

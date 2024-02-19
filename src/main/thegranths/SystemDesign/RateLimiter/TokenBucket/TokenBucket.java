@@ -1,15 +1,14 @@
 package SystemDesign.RateLimiter.TokenBucket;
 
 import SystemDesign.RateLimiter.RateLimiter;
-
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class TokenBucket implements RateLimiter {
-    private int bucketCapacity;
-    private int refreshRate;
-    private AtomicInteger currentCapacity;
-    private AtomicLong lastUpdatedTime;
+    private final int bucketCapacity;
+    private final int refreshRate;
+    private final AtomicInteger currentCapacity;
+    private final AtomicLong lastUpdatedTime;
 
     public TokenBucket(int bucketCapacity, int refreshRate) {
         this.bucketCapacity = bucketCapacity;

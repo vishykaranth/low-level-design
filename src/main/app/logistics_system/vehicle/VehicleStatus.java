@@ -1,4 +1,4 @@
-package logistics_system;
+package logistics_system.vehicle;
 
 public enum VehicleStatus {
     FREE,

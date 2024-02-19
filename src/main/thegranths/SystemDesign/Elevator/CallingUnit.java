@@ -10,6 +10,4 @@ public class CallingUnit {
     void moveElevator(int currentFloor, int destinationFloor) {
         dispatcherUnit.getNextFloorForElevator(currentFloor, destinationFloor);
     }
-
-    ;
 }

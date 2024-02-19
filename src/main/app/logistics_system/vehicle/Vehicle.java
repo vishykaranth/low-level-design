@@ -1,4 +1,6 @@
-package logistics_system;
+package logistics_system.vehicle;
+
+import logistics_system.Location;
 
 public class Vehicle {
 

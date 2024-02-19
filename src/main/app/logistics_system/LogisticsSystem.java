@@ -1,5 +1,7 @@
 package logistics_system;
 
+import logistics_system.vehicle.Vehicle;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -24,6 +24,12 @@ class GameBoard {
 
     void startGame() {
         while (nextTurn.size() > 1) {
+
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             Player player = nextTurn.poll();
             int currentPosition = playersCurrentPosition.get(player.getPlayerName());
             int diceValue = dice.rollDice();

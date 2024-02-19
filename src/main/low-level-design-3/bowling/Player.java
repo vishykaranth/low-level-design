@@ -34,7 +34,7 @@ public class Player {
         this.chance1 = chance1;
     }
 
-    private int chance2=0;
+    private int chance2 = 0;
 
     public int getChance2() {
         return chance2;

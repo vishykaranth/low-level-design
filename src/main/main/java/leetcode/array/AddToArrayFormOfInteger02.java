@@ -28,7 +28,7 @@ import java.util.*;
  *
  * <p>Solution: O(N) use BigInteger to add long numbers
  */
-public class AddToArrayFormOfInteger {
+public class AddToArrayFormOfInteger02 {
     public static void main(String[] args) {
         int[] input = listToArray(Arrays.asList(1, 2, 3));
         int[] expected = listToArray(Arrays.asList(1, 2, 4));

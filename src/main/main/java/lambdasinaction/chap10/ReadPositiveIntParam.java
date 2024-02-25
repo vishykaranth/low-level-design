@@ -1,6 +1,6 @@
 package lambdasinaction.chap10;
 
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
 
 import java.util.*;
 
@@ -9,7 +9,7 @@ import static java.util.Optional.*;
 
 public class ReadPositiveIntParam {
 
-    @Test
+    //@Test
     public void testMap() {
         Properties props = new Properties();
         props.setProperty("a", "5");
